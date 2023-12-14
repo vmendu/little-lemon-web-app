@@ -1,0 +1,46 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+@font-face {
+  font-family: 'Markazi Text', serif;
+  src: url(fonts/Markazi_Text/MarkaziText-Medium.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Markazi Text', serif;
+  src: url(fonts/Markazi_Text/MarkaziText-Regular.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Karla', sans-serif;
+  src: url(fonts/Karla/Karla-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Karla', sans-serif;
+  src: url(fonts/Karla/Karla-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Karla', sans-serif;
+  src: url(fonts/Karla/Karla-ExtraBold.ttf);
+  font-weight: 800;
+}
+
+:root {
+  --primary-color:#F4CE14;
+  --secondary-color:black;
+  --accent-color:#495E57;
+  --hover-color: #FFEB89;
+}
+
+.body{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+}

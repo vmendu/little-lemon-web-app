@@ -1,0 +1,131 @@
+.reservation-intro{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.interior-image{
+    width: 60%;
+    padding: 20px;
+}
+
+.important-info{
+    display: flex;
+    justify-content: center;
+    background-color: var(--hover-color);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 20px 200px 60px 200px;
+    padding: 30px 20px 80px 20px;
+}
+
+.reservation-details h1{
+color: #000;
+font-family: Markazi Text;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 30px 0px 30px 100px;
+}
+
+.reservation-details h3{
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 60px 0px 60px 150px;
+}
+
+.important-info h4{
+color: #000;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+text-decoration-line: underline;
+}
+
+.important-info h5{
+color: #000;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px;
+}
+
+.reservation-calendar{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reservation-calendar h1{
+color: #000;
+font-family: Markazi Text;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 30px 0px 30px 100px;
+}
+
+.reservation-calendar h4{
+color: #000;
+text-align: center;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.calendar-background{
+    background-color: var(--accent-color);
+}
+
+.calendar-circle{
+width: 55px;
+height: 55px;
+flex-shrink: 0;
+fill: #FFF;
+stroke-width: 2px;
+stroke: #F4CE14;
+border-radius: 9999px;
+}
+
+.calendar-date h1{
+    color: #000;
+    text-align: center;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+@media (max-width:768px){
+    .interior-image{
+        width: 100%;
+    }
+
+    .reservation-details h1{
+        font-size: 30px;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+    .reservation-details h3{
+        font-size: 15px;
+        text-align: center;
+        padding: 15px;
+    }
+    .important-info{
+        margin: 30px;
+    }
+}

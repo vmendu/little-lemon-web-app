@@ -1,0 +1,112 @@
+/* This weeks specials cards*/
+
+.weekly-specials-title{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+color: #000;
+font-family: Karla;
+font-size: 12px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 30px;
+align-items: center;
+}
+
+.weekly-specials-sections{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.online-menu{
+    padding: 15px 30px;
+    width: 171px;
+    height: 50px;
+    color: #000;
+    text-align: center;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 16px;
+    border: none;
+    background: var(--primary-color); 
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(244, 206, 20, 0.35));
+}
+
+.online-menu:hover{
+    background-color: var(--hover-color);
+}
+
+.online-menu:active{
+    background-color: var(--accent-color);
+}
+
+/*order delivery button*/
+
+.order-delivery-action-weekly-specials{
+    border: none;
+    background-color: var(--primary-color);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+    color: #000;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.online-order-delivery-button-weekly-specials{
+    display: flex;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px
+}
+.bicycle-outline-weekly-specials{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    font-size: 1.3em;
+    background-color: rgba(244, 207, 20, 0.50);
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+    justify-content: center;
+}
+.order-delivery-action-weekly-specials:hover{
+    background-color: var(--hover-color);
+}
+.order-delivery-action-weekly-specials:active{
+    background-color: var(--accent-color);
+}
+
+
+@media (min-width:320px) and (max-width:500px){
+    .weekly-specials-title{
+        justify-content: center;
+    }
+    .weekly-specials-title h1{
+        padding: 15px 0;
+    }
+    .weekly-specials-sections{
+        margin: 25px 0;
+    }
+}
+
+  @media (min-width:320px) and (max-width:765px){
+    .online-order-delivery-button-weekly-specials{
+        left: 0;
+        justify-content:center;
+        align-items: center;
+    }
+    .order-delivery-action-weekly-specials{
+        max-width: 60%;
+    }
+  }

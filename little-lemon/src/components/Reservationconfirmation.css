@@ -1,0 +1,394 @@
+.confirmation-title{
+    color: #000;
+    font-family: Markazi Text;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.confirmation-upper-bar{
+    display: flex;
+    align-items: center;
+    margin: 50px 50px 0 50px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+.confirmation-details-text{
+    color:var(--primary-color);
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px;
+    text-decoration: underline;
+    text-underline-offset: 25px;
+    text-decoration-thickness: 4px;
+}
+
+
+  .checkmark-icon {
+    padding-top:5px
+  }
+
+.find-a-table-text{
+color: #000;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 20px;
+}
+
+
+.confirmation-underline{
+    height: 0.25rem;
+    background-color: var(--accent-color);
+}
+
+.confirmation-flow{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.confirmation-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.confirmation-icon {
+  margin-right: 10px;
+  color: var(--primary-color);
+  font-size: 25px;
+}
+
+.confirmation-field{
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation-summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.confirmation-line{
+
+       border-left: 2px solid var(--accent-color);
+       margin: 0 10px;
+}
+
+  .confirmation-summary p {
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 10px;
+  }
+
+  .confirmation-summary h2 {
+    color: #000;
+    font-family: Karla;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 30px;
+  }
+
+.confirmation-details-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .confirmation-details-newsletter{
+    padding: 20px;
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 400px;
+    margin: 20px;
+
+}
+
+  .confirm-reservation-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+  .confirm-reservation{
+    border: 5px solid #495E57;
+    background: #FFF;
+    width: 400px;
+    height: 60px;
+    border-radius: 10px;
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .confirm-reservation:hover{
+    background-color: var(--hover-color);
+  }
+
+  .confirm-reservation:active{
+    background-color: var(--accent-color);
+  }
+
+
+.details-field{
+    border: none;
+    flex: 1;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid#F4CE14;
+    background-color: white;
+    padding: 10px;
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    margin: 20px;
+    text-align: center;
+  }
+
+.newsletter-field{
+    border: none;
+    flex: 1;
+}
+
+.checkbox-style{
+    margin-right: 10px;
+    width: 10px;
+    display: none;
+}
+
+.newsletter-text{
+    color: #000;
+font-family: Karla;
+font-size: 15px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.confirmation-text-input{
+  text-align: center;
+}
+
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+button:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.custom-checkbox-reservation-confirmation {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; 
+  margin-right: 8px; 
+  width: 20px;
+  height: 20px;
+  border: 2px solid #F4CE14;
+  background-color: #FFF;
+  border-radius: 3px;
+}
+
+
+.custom-checkbox-reservation-confirmation:after {
+  content: '';
+  position: absolute;
+  display: none;
+  left: 4px;
+  bottom: 2px;
+  width: 6px;
+  height: 12px;
+  border-style: solid;
+  border-color: #495E57;
+  border-width: 0 3px 3px 0;
+  transform: rotate(45deg);
+}
+
+.checkbox-style:checked + .custom-checkbox-reservation-confirmation:after {
+  display: block;
+}
+
+
+
+/*Responsive Screen Sizes*/
+
+
+@media (max-width: 425px){
+  .confirmation-title{
+    font-size: 12px;
+  }
+  .confirmation-upper-bar{
+ margin: 30px 0 0 0;
+  }
+  .step{
+    margin-right: 0;
+  }
+  .confirmation-underline{
+    width: 500px;
+  }
+.confirmation-summary{
+  padding: 0;
+}
+
+.find-a-table-text {
+  font-size: 12px;
+  padding: 8px;
+}
+
+.confirmation-details-text{
+  font-size: 12px;
+  padding: 8px;
+  text-underline-offset: 13px;
+}
+.confirmation-summary{
+  align-content: center;
+  flex-wrap: wrap;
+}
+.confirmation-summary h2 {
+  font-size: 20px;
+  padding: 10px;
+}
+.confirmation-summary p {
+  font-size: 12px;
+}
+
+.details-field{
+  margin-right: 0;
+  width: auto;
+  padding: 0;
+}
+
+.confirmation-details-newsletter{
+  width: auto;
+}
+.newsletter-text{
+  font-size: 12px;
+}
+.confirmation-field{
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+}
+}
+
+@media (max-width: 768px ){
+  .find-a-table-text{
+    font-size: 14px;
+  }
+
+  .confirmation-title{
+    text-align: center;
+    padding-left: 0;
+  }
+.confirmation-upper-bar{
+  justify-content: center;
+}
+
+  .confirmation-flow{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+    .confirmation-line{
+      border: none;
+      margin: 0;
+    }
+    .confirmation-summary {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .confirmation-summary h2 {
+      font-size: 20px;
+    }
+
+    .confirmation-row{
+      margin:0
+    }
+
+    .confirmation-summary p {
+      font-size: 15px;
+    }
+    .confirmation-field{
+      display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+  
+
+.confirmation-details-newsletter {
+  padding: 10px;
+}
+.confirm-reservation{
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+}
+
+
+
+@media (min-width:760px) and (max-width: 1024px){
+
+  .confirmation-title{
+    font-size: 15px;
+  }
+  .details-field{
+    padding: 0;
+  }
+  .confirmation-details-text {
+    font-size: 14px;
+  }
+}
+
+
+@media(width:768px){
+  .confirmation-details-text{
+    text-underline-offset: 24px;
+  }
+}
+
+@media(width:1024px){
+  .confirmation-details-text{
+    text-underline-offset: 27px;
+  }
+}
