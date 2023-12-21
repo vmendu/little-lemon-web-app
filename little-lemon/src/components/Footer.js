@@ -64,7 +64,7 @@ function Footer() {
         </div>
         <div className="copyright-wrapper">
           <p> Designed and Developed by
-            <a href="#" target="blank">Little Lemon</a>
+            <a href="#" target="blank"> Little Lemon</a>
           </p>
         </div>
     </div>

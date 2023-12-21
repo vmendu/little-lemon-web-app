@@ -71,7 +71,6 @@
     display: flex;
     overflow-x: auto; 
    margin: 15px;
-   justify-content: center;
 }
 .online-order-delivery-button-entrees{
     display: flex;

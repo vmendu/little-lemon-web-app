@@ -2,12 +2,12 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import About from './pages/About';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
 import Reservations from './pages/Reservations';
 import Order from './pages/Order';
 import Login from './pages/Login';
 import Confirmation from './pages/Confirmation';
 import './index.css';
+import Menu from './pages/Menu';
 
 
 
