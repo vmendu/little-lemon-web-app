@@ -1,0 +1,261 @@
+
+.signin-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-title{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.login-title h1{
+    color: #000;
+    text-align: center;
+    font-family: Markazi Text;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.2px;
+}
+
+.login-flow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--hover-color);
+    max-width: 60%;
+    border-radius: 20px;
+    height: 700px;
+    justify-content: center;
+    width: 1500px;
+}
+
+.signin-email{
+    padding: 50px;
+}
+
+.signin-field{
+    width: 800px;
+    height: 100px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+
+.signin-input{
+    color: #000;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    border: 5px solid #F4CE14;
+    border-radius: 12px;
+}
+
+.signin-password{
+    padding: 50px;
+}
+
+.signin-password-error{
+    color: red;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 10px;
+}
+
+.signin-submit-button{
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    border: 3px solid #F4CE14;
+}
+
+.signin-password-lower-portion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.signedin-checkbox{
+    padding: 25px;
+    border: none;
+    color: #000;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-right: 630px;
+}
+
+.signedin-field{
+    border: none;
+}
+
+.signedin-input{
+    width: 30px;
+    display: none;
+}
+
+.signedin-label{
+    display: flex;
+    align-items: center;
+}
+
+.forgot-password{
+    color: #000;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+.close-popup{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+    font-size: 50px;
+}
+
+.signin-submit-button:hover {
+    background-color: var(--hover-color);
+  }
+
+  .signin-submit-button:active {
+    background-color: var(--accent-color);
+  }
+
+
+.custom-checkbox-signin {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 8px; 
+    width: 20px;
+    height: 20px;
+    border: 2px solid #F4CE14;
+    background-color: #FFF;
+    border-radius: 3px;
+  }
+  
+  
+  .custom-checkbox-signin:after {
+    content: '';
+    position: absolute;
+    display: none;
+    left: 4px;
+    bottom: 2px;
+    width: 6px;
+    height: 12px;
+    border-style: solid;
+    border-color: #495E57;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .signedin-input:checked + .custom-checkbox-signin:after {
+    display: block;
+  }
+
+
+@media (max-width: 500px) {
+    .login-title{
+        padding: 35px;
+    }
+    .login-title h1{
+        font-size: 35px;
+    }
+    .signin-password-lower-portion{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .signin-password-error{
+        font-size: 12px;
+    }
+    .forgot-password{
+        font-size: 12px;
+    }
+    .signedin-checkbox{
+        font-size: 12px;
+        margin: 0;
+        padding: 15px;
+    }
+    .signin-field{
+        width: 200px;
+        height: 120px;
+    }
+    .signin-email{
+        padding: 20px;
+    }
+    .signin-password{
+        padding: 20px;
+    }
+    .signin-input{
+        height: 80px;
+    }
+    .signin-password-error{
+        font-size: 8px;
+        padding: 5px;
+    }
+    .forgot-password{
+        font-size: 10px;
+    }
+    .signin-submit-button{
+        width: 150px;
+    }
+    .signin-password-lower-portion{
+        padding: 8px 0
+    }
+    .login-flow{
+        width: 500px;
+    }
+    .existing-account{
+        justify-content: center;
+    }
+    .close-popup{
+        margin-right: 90px;
+        font-size: 35px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1440px){
+    .signin-field{
+        width: 500px;
+    }
+    .signedin-checkbox{
+        margin-right: 300px;
+    }
+    .close-popup{
+        margin-right: 150px;
+    }
+    .login-flow{
+        width: 1000px;
+    }
+    .login-title h1{
+        font-size: 40px;
+    }
+}
+
+
+
+
+

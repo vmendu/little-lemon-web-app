@@ -1,0 +1,198 @@
+.online-drinks-title{
+    color: #000;
+    font-family: Markazi Text;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px;
+}
+
+.drinks-card{
+    max-width: 400px;
+    height: 600px;
+    background-color: lightgray;
+    margin: 0 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.drinks-image{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.drinks-image img{
+ width:400px; 
+ border-radius: 20px;
+}
+.drinks-info{
+    padding:35px;
+    display: flex;
+}
+.drinks-description h1 {
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.drinks-description h3{
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40px;
+    padding: 15px;
+}
+.drinks-price h3{
+    color: #FF0F0F;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.drinks-sections{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+.drinks-scroll-container {
+    display: flex;
+    overflow-x: auto; 
+   margin: 15px;
+   justify-content: center;
+}
+.online-order-delivery-button-drinks{
+    display: flex;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px
+}
+.order-delivery-action-drinks{
+    border: none;
+    background-color: var(--primary-color);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+    color: #000;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.bicycle-outline-drinks{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    font-size: 1.3em;
+    background-color: rgba(244, 207, 20, 0.50);
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+    justify-content: center;
+}
+.order-delivery-action-drinks:hover{
+    background-color: var(--hover-color);
+}
+.order-delivery-action-drinks:active{
+    background-color: var(--accent-color);
+}
+
+
+
+@media (min-width:320px) and (max-width:765px){
+    .online-drinks-title{
+        font-size: 14px;
+        text-align: center;
+    }
+    .drinks-scroll-container{
+        justify-content: flex-start;
+
+    }
+    .drinks-card{
+        width: 200px;
+        height: 400px;
+        margin: 0 20px;
+    }
+    .drinks-image{
+        height: 150px;
+    }
+    .drinks-image img{
+        width:200px;
+
+    }
+    .drinks-info{
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .drinks-description h1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .drinks-description h3{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .drinks-price h3{
+        font-size: 12px;
+        top: 305px;
+        right: 83px;
+        text-align: center;
+        position: absolute;
+    }
+    .online-order-delivery-button-drinks{
+        left: 0;
+        justify-content:center;
+        align-items: center;
+    }
+    .order-delivery-action-drinks{
+        max-width: 60%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1440px){
+    .online-drinks-title{
+        font-size: 16px;
+    }
+    .drinks-scroll-container{
+        justify-content: flex-start;
+    }
+    .drinks-card{
+        width: 300px;
+        height: 475px;
+    }
+    .drinks-image{
+        height: 200px;
+    }
+    .drinks-image img{
+        width: 300px;
+    }
+    .drinks-description h3{
+        padding: 20px 0;
+        text-align: center;
+        font-size: 15px;
+    }
+    .drinks-description h1 {
+        font-size: 15px;
+    }
+    .drinks-info{
+        padding: 28px;
+    }
+}
+
+
+
