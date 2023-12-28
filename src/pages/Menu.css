@@ -1,0 +1,27 @@
+.menu-title h1{
+    color: #000;
+    text-align: center;
+    font-family: Markazi Text;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.underline{
+    width: 26rem;
+    height: 0.25rem;
+    background-color: var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width:700px){
+    .menu-title h1{
+        font-size: 50px;
+    }
+
+    .underline{
+        width: 18rem;
+    }
+}

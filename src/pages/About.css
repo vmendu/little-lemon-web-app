@@ -1,0 +1,344 @@
+.page-title h1{
+display: flex;
+width: 242px;
+height: 46px;
+flex-shrink: 0;
+color: #000;
+font-family: Markazi Text;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 20px;
+}
+
+
+
+.owner-image-about{
+    display: flex;
+
+}
+
+.owner-image-about img{
+    width: 588px;
+    height: 405px;
+}
+
+/*.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}*/
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the container horizontally */
+  text-align: left; /* Set the text alignment within the container */
+  margin: 40px;
+}
+
+.description p {
+    width: 797px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    padding: 20px;
+}
+
+
+.resturant-interior-about{
+    display: flex;
+
+}
+
+.resturant-interior-about img{
+    width: 588px;
+    height: 405px;
+}
+
+.exclusive-offer{
+width: 100%;
+height: 400px;
+background-color: rgba(73,94,94,0.75);
+text-align: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.exclusive-offer h3{
+padding: 30px;
+color: #000;
+font-family: Karla;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1px;
+}
+
+.exclusive-offer h2{
+padding: 30px;
+color: #000;
+font-family: Karla;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 1.25px;
+}
+
+.enter-email{
+padding: 50px;
+width: 752px;
+height: 101px;
+flex-shrink: 0;
+border-radius: 30px;
+background: #F4CE14;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.enter-your-email{
+  border: none;
+  border-radius:20px;
+  color: #000;
+  font-family: Karla;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  width: 500px;
+  height: 50px;
+  padding: 30px;
+}
+
+.exclusive-email-offer{
+display: flex;
+justify-content: center;
+}
+.email-offer-field{
+display: flex;
+width: 480px;
+border: none;
+border-radius: 4px;
+flex-direction: row;
+}
+
+.arrow-button {
+position: relative;
+right: 150px;
+font-size: 2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 150px;
+height: 101px;
+border: none;
+border-radius: 10px;
+color: #000;
+background-color: #FFEB88;
+}
+
+.arrow-button:active{
+  background-color: var(--accent-color);
+}
+
+.exclusive-offers{
+  display: flex;
+  justify-content: center;
+  background-color: var(--hover-color);
+  margin: 50px 0;
+  flex-direction: column;
+}
+
+.offers-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.offers-title h1{
+  color: #000;
+  font-family: Karla;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.25px;
+  padding: 20px;
+}
+
+.offers-title h2{
+  color: #000;
+  font-family: Karla;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+
+.newsletter-signup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.newsletter-field-about{
+  border: none;
+}
+
+.newsletter-submit{
+  border: none;
+  height: 49px;
+  width: 40px;
+  background-color: var(--accent-color);
+  border-radius: 0 10px 10px 0;
+}
+
+.newsletter-input{
+  padding: 15px;
+  margin: 5px 0 5px 0;
+  border: none;
+  width: 350px;
+  font-family: Karla;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 10px 0  0 10px;
+}
+
+.newletter-submit-arrow{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+@media (max-width:500px){
+  .page-title h1{
+    justify-content: center;
+    margin: 20px 0;
+  }
+  .owner-image-about,
+  .resturant-interior-about {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .owner-image-about img,
+  .resturant-interior-about img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .description {
+    width: 80%; 
+    margin: 40px auto; 
+  }
+
+  .offers-title h2{
+    font-size: 18px;
+  }
+
+  .offers-title h1{
+    font-size: 22px;
+  }
+
+  .newsletter-input{
+    width: 100%;
+  }
+}
+
+@media (max-width: 900px) {
+    .page-title h1 {
+      width: 100%;
+      font-size: 28px;
+    }
+    .resturant-interior-about{
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+    }
+
+    .owner-image-about{
+      display: flex;
+      width: 100%;
+      height: auto;
+      justify-content: center;
+    }
+
+    .description p {
+      width: 100%;
+      font-size: 14px;
+      padding: 10px;
+    }
+
+
+    .exclusive-offer{
+      height: 250px;
+    }
+
+    .exclusive-offer h3,
+    .exclusive-offer h2 {
+      padding: 15px;
+      font-size: 20px;
+    }
+
+    .enter-email {
+      padding: 20px;
+      width: 100%;
+      height: auto;
+    }
+
+.enter-your-email{
+  border: none;
+  background-color: #F4CE14;
+  color: #000;
+font-family: Karla;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.9px;
+}
+
+.exclusive-email-offer{
+  display: flex;
+  justify-content: center;
+}
+.email-offer-field{
+  display: flex;
+  width: 480px;
+  border: none;
+  border-radius: 4px;
+  flex-direction: row;
+}
+}
+
+@media (min-width:1024px){
+  .owner-image-about{
+    margin: 40px;
+  }
+  .resturant-interior-about{
+    margin: 40px;
+  }
+}

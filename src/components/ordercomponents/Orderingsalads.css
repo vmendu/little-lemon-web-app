@@ -1,0 +1,197 @@
+.online-salads-title{
+    color: #000;
+    font-family: Markazi Text;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px;
+}
+
+.salads-card{
+    max-width: 400px;
+    height: 600px;
+    background-color: lightgray;
+    margin: 0 50px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.salads-image{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.salads-image img{
+ width:400px; 
+ border-radius: 20px;
+}
+.salads-info{
+    padding:35px;
+    display: flex;
+}
+.salads-description h1 {
+    color: #000;
+    font-family: Karla;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 10px;
+}
+.salads-description h3{
+    color: #000;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 40px;
+    padding: 15px;
+}
+.salads-price h3{
+    color: #FF0F0F;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.salads-sections{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden; 
+    overflow-y: auto; 
+}
+
+.salads-scroll-container {
+    display: flex;
+    overflow-x: auto; 
+   margin: 15px;
+   justify-content: center;
+}
+.online-order-delivery-button-salads{
+    display: flex;
+    height: 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 25px
+}
+.order-delivery-action-salads{
+    border: none;
+    background-color: var(--primary-color);
+    width: 150px;
+    height: 35px;
+    border-radius: 10px 0 0 10px;
+    color: #000;
+    font-family: Karla;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+.bicycle-outline-salads{
+    display: flex;
+    align-items: center;
+    height: 35px;
+    font-size: 1.3em;
+    background-color: rgba(244, 207, 20, 0.50);
+    width: 40px;
+    border-radius: 0 10px 10px 0;
+    justify-content: center;
+}
+.order-delivery-action-salads:hover{
+    background-color: var(--hover-color);
+}
+.order-delivery-action-salads:active{
+    background-color: var(--accent-color);
+}
+
+
+@media (min-width:320px) and (max-width:765px){
+    .online-salads-title{
+        font-size: 14px;
+        text-align: center;
+    }
+    .salads-scroll-container{
+        justify-content: flex-start;
+
+    }
+    .salads-card{
+        width: 200px;
+        height: 400px;
+        margin: 0 20px;
+    }
+    .salads-image{
+        height: 150px;
+    }
+    .salads-image img{
+        width:200px;
+
+    }
+    .salads-info{
+        flex-direction: column;
+        padding: 15px 0;
+    }
+    .salads-description h1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .salads-description h3{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .salads-price h3{
+        font-size: 12px;
+        top: 305px;
+        right: 83px;
+        text-align: center;
+        position: absolute;
+    }
+    .online-order-delivery-button-salads{
+        left: 0;
+        justify-content:center;
+        align-items: center;
+    }
+    .order-delivery-action-salads{
+        max-width: 60%;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1440px){
+    .online-salads-title{
+        font-size: 16px;
+    }
+    .salads-scroll-container{
+        justify-content: flex-start;
+    }
+    .salads-card{
+        width: 300px;
+        height: 475px;
+    }
+    .salads-image{
+        height: 200px;
+    }
+    .salads-image img{
+        width: 300px;
+    }
+    .salads-description h3{
+        padding: 20px 0;
+        text-align: center;
+        font-size: 15px;
+    }
+    .salads-description h1 {
+        font-size: 15px;
+    }
+    .salads-info{
+        padding: 28px;
+    }
+}
+
+
+
